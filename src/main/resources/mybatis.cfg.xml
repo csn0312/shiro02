@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="logImpl" value="SLF4J"/>
+        <!-- 开启二级缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+    <!-- 别名 -->
+    <!--<typeAliases>-->
+        <!--<typeAlias type="com.zking.zf.model.Yh" alias="Yh"/>-->
+        <!--<typeAlias type="com.zking.zf.model.Fwlx" alias="Fwlx"/>-->
+        <!--<typeAlias type="com.zking.zf.model.Fwxx" alias="Fwxx"/>-->
+    <!--</typeAliases>-->
+
+
+    <!--将pagehelper插件配置到mybatis中-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+    </plugins>
+</configuration>
