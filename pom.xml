@@ -52,7 +52,7 @@
         <hibernate-validator.version>6.0.7.Final</hibernate-validator.version>
 
 
-        <shiro.version>1.2.5</shiro.version>
+        <shiro.version>1.5.0</shiro.version>
 
         <jjwt.version>0.9.1</jjwt.version>
         <java-jwt.version>3.4.0</java-jwt.version>
